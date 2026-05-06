@@ -4,132 +4,80 @@
 
 const CONFIG = {
   // --- Personal Info ---
-  name: "Alex Rivera",
-  title: "Creative Developer & Designer",
-  tagline: "I build things that live on the internet.",
-  email: "alex@example.com",
-  location: "San Francisco, CA",
-  avatar: "", // URL to your photo, or leave empty for initials
+  name: "Anwesha Deb",
+  title: "AI/ML student and enthusiast & Full-Stack Developer",
+  tagline: "I build wesites and applications to sove real world problems.",
+  email: "debanwesha007@gmail.com",
+  location: "Chennai, Tamil Nadu",
+  avatar: "https://1drv.ms/i/c/ce9ae478e9354edc/IQBjpfKWCLHQQoBZiLCh9DqtARwPRm0q8EkYuLqQnYplRa0?e=5RQBhO", // URL to your photo, or leave empty for initials
 
   // --- Social Links ---
   social: {
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
-    twitter: "https://twitter.com/",
-    dribbble: "", // leave empty to hide
-    resume: "#", // link to your resume PDF
+    github: "https://github.com/debanwesha007-crypto",
+    linkedin: "https://www.linkedin.com/in/anwesha-deb-90985436a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Instagram: "https://www.instagram.com/anwesha.x.d_07?igsh=dGIwbDNoaGVxc3E1", 
+    resume: "https://drive.google.com/file/d/1WEwihj7zJvCB0sdGd8FvgVM6b-U6AD8K/view?usp=sharing", // link to your resume PDF
   },
 
   // --- About Section ---
   about: {
     bio: [
-      "I'm a full-stack developer with 5+ years of experience crafting digital experiences that balance beautiful design with clean, scalable code.",
-      "When I'm not pushing pixels or wrangling APIs, you'll find me hiking mountain trails, experimenting with generative art, or obsessing over the perfect cup of coffee.",
+      "Hello, I'm Anwesha, a Computer Science student specialising in Artificial Intelligence and Machine Learning.I'm interested in backend coding and development. I also have a keen interest in Front-end coding and Generative AI & Agentic AI, Python Programming, JAVA  and  LLMs (Large Language Models)and RAGs(Retrieval-Augmented Generations). 
+I'm passionate about solving real-world problems through tech-driven innovations. Whether it's building smart tools, participating in hackathons and workshops or collaborating on impactful projects . I am always looking to grow as a developer, thinker and teammate..",
     ],
     skills: [
       "JavaScript / TypeScript",
       "React & Next.js",
       "Node.js",
       "Python",
-      "Figma & UI Design",
-      "PostgreSQL",
-      "AWS / Cloud",
-      "GraphQL",
+      "JAVA",
+      "HTML",
+      "CSS",
+      "AI/ML"
     ],
   },
 
   // --- Projects ---
   projects: [
     {
-      title: "Luminary Dashboard",
+      title: "Election guide assistant",
       description:
-        "A real-time analytics platform for SaaS businesses. Built with React, D3.js, and WebSockets — serves 10k+ daily active users.",
-      tags: ["React", "D3.js", "Node.js", "WebSocket"],
-      link: "#",
-      github: "#",
-      featured: true,
-      gradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-    },
-    {
-      title: "Nomad Planner",
-      description:
-        "AI-powered travel itinerary generator. Users describe their dream trip and get a full plan in seconds using GPT-4 and Google Maps API.",
-      tags: ["Next.js", "OpenAI", "Tailwind", "Prisma"],
-      link: "#",
-      github: "#",
-      featured: true,
-      gradient: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-    },
-    {
-      title: "Codebeam CLI",
-      description:
-        "A developer productivity tool that scaffolds full-stack apps from a single config file. 2k+ GitHub stars.",
-      tags: ["Go", "CLI", "Open Source"],
-      link: "#",
-      github: "#",
-      featured: true,
-      gradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-    },
-    {
-      title: "Pixel Canvas",
-      description:
-        "Collaborative pixel art tool — like MS Paint meets Google Docs. Built with Rust + WebAssembly for performance.",
-      tags: ["Rust", "WASM", "Canvas API"],
-      link: "#",
-      github: "#",
-      featured: false,
-      gradient: "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-    },
-    {
-      title: "Stockwave",
-      description:
-        "Portfolio tracker with sentiment analysis pulled from Reddit and Twitter using NLP models.",
-      tags: ["Python", "NLP", "FastAPI", "React"],
-      link: "#",
-      github: "#",
-      featured: false,
-      gradient: "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-    },
-    {
-      title: "Habitflow",
-      description:
-        "Habit tracking iOS app with streak visualizations and smart reminders built with React Native.",
-      tags: ["React Native", "Expo", "SQLite"],
-      link: "#",
-      github: "#",
-      featured: false,
-      gradient: "linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)",
+        "an AI-powered Election Guide Assistant!
+Understanding the election process can be overwhelming for many citizens. I built an interactive assistant that breaks it all down in a simple, clear, and nonpartisan way..",
+      tags: ["Vanilla HTML, CSS & JavaScript,Google Gemini API (free tier),Deployed on Vercel"],
+      link: "https://election-guide-assistant-five.vercel.app/",
+      github: "https://github.com/debanwesha007-crypto/election-guide-assistant",
     },
   ],
 
   // --- Experience ---
   experience: [
     {
-      role: "Senior Frontend Engineer",
-      company: "Vercel",
-      period: "2022 — Present",
+      role: "Technical Team Member",
+      company: "IOT Alliance Srmist,Kattankulathur",
+      period: "Oct 2025 — Present",
       description:
-        "Led development of the new dashboard UI, improving load times by 40%. Mentored 3 junior engineers and drove adoption of TypeScript across the team.",
+        "Working in the domain of AI/ML.",
     },
     {
-      role: "Full-Stack Developer",
-      company: "Stripe",
-      period: "2020 — 2022",
+      role: "Student Volunteer - Commitee member",
+      company: "Aaruush Initiatives, SRM university, Chennai",
+      period: "Aug 2025 — Present",
       description:
-        "Built internal tooling used by 500+ employees. Contributed to the public API documentation and developer experience initiatives.",
+        "Currently working as a student commitee team member at Aaruush Initiatives. Had been promoted from Student Volunteer",
     },
     {
-      role: "Frontend Developer",
-      company: "Freelance",
-      period: "2018 — 2020",
+      role: "Automotive AI Innovation Intern",
+      company: "Yuva Intern by Henry Harvin",
+      period: "Mar 2026 - Apr 2026",
       description:
-        "Designed and built websites for 30+ clients ranging from local businesses to Series A startups.",
+        "Solved and made reports on Generative AI and it's trends.",
     },
   ],
 
   // --- Footer ---
   footer: {
-    message: "Designed & built by Alex Rivera",
+    message: "Designed & built by Anwesha Deb",
     year: new Date().getFullYear(),
   },
 };
